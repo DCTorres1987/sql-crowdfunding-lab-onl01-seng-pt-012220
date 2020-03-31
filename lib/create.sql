@@ -9,7 +9,7 @@ end_date DATE);
 CREATE TABLE users(
 id INTEGER PRIMARY KEY,
 name TEXT,
-age TEXT);
+age INTEGER);
 
 CREATE TABLE pledges(
 id INTEGER PRIMARY KEY,
